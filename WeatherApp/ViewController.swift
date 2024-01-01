@@ -69,7 +69,7 @@ class ViewController: UIViewController {
     private lazy var humidityValueLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "100mm"
+        label.text = "100%"
         label.font = fontContrast
         label.textColor = .white
         return label
@@ -118,6 +118,16 @@ class ViewController: UIViewController {
         stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 12, leading: 25, bottom: 12, trailing: 25)
         return stackView
     }()
+    
+    private lazy var hourlyForecastLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = .white
+        label.text = "Previsão por hora"
+        label.textAlignment = .center
+        label.font = fontContrast
+        return label
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -146,6 +156,7 @@ class ViewController: UIViewController {
         view.addSubview(backgroundView)
         view.addSubview(headerView)
         view.addSubview(statusStackView)
+        view.addSubview(hourlyForecastLabel)
         
         headerView.addSubview(cityTextLabel)
         headerView.addSubview(temperatureLabel)
@@ -181,6 +192,12 @@ class ViewController: UIViewController {
             statusStackView.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: 15),
             statusStackView.widthAnchor.constraint(equalToConstant: 206),
             statusStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            hourlyForecastLabel.topAnchor.constraint(equalTo: statusStackView.bottomAnchor, constant: 29),
+            hourlyForecastLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 35),
+            hourlyForecastLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -35),
         ])
     }
 }
