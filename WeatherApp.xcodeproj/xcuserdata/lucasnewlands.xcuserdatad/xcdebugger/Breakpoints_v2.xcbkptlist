@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B07A474C-43D7-478C-9A8D-B9C95415B8DE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD17DC13-E7D7-4461-BDB2-C9200083BE7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherApp/DailyForecastTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "DailyForecastTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DD17DC13-E7D7-4461-BDB2-C9200083BE7C - e5e615cf92055516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherApp.DailyForecastTableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WeatherApp.DailyForecastTableViewCell&gt;"
+                  moduleName = "WeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasnewlands/Desktop/WeatherApp/WeatherApp/DailyForecastTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "DD17DC13-E7D7-4461-BDB2-C9200083BE7C - 183c4b887f85142f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherApp.DailyForecastTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WeatherApp.DailyForecastTableViewCell&gt;"
+                  moduleName = "WeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasnewlands/Desktop/WeatherApp/WeatherApp/DailyForecastTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "DD17DC13-E7D7-4461-BDB2-C9200083BE7C - 740d38e7a03eff91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UILabel in WeatherApp.DailyForecastTableViewCell.weekDayLabel.getter : __C.UILabel"
+                  moduleName = "WeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasnewlands/Desktop/WeatherApp/WeatherApp/DailyForecastTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
